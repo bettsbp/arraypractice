@@ -1,11 +1,7 @@
 $(document).ready(function() {
-  $("#flavors").submit(function(event) {
+    var flavors = ["chocolate", "vanilla", "mint", "oreo", "cookies n cream", "rocky road", "ice cream"];
 
-
-    var creamFlavor = $("input#flavor").val();
-    var flavors = [creamFlavor]
-    $("#answers").show();
-
-    event.preventDefault();
-  })
-})
+    flavors.forEach(function(flavor) {
+      $("ul").append("<li>" + flavor + "</li>");
+    });
+  });
