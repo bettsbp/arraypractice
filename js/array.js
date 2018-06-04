@@ -12,6 +12,10 @@ $(document).ready(function() {
   //   alert("This is an image.");
   // });
 
+  // --------------
+  // Simplified to below code using looping and forEach functions
+  // vvvvvvvvvvvvvv
+
   var elements = ["h1", "p", "img"];
   elements.forEach(function(element) {
     $(element).click(function() {
