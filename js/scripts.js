@@ -19,5 +19,18 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+  //
+  //   $("#tagprac h1").click(function() {
+  //   alert("This is a header.");
+  // });
+  //
+  //   $("#tagprac p").click(function() {
+  //   alert("This is a paragraph.");
+  // });
+  //
+  //   $("#tagprac img").click(function() {
+  //   alert("This is an image.");
+  // });
 
+  });
 });
