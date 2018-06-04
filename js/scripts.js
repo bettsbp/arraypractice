@@ -11,7 +11,11 @@ $(document).ready(function() {
 
     favArray.push(inputFood, inputAnimal, inputColor, inputMusic, inputMovie);
 
-    newArray.push(favArray[1], favArray[0], favArray[2])
+    newArray.push(favArray[1], favArray[0], favArray[2]);
+
+    $("ul").append("<li>" + newArray[0] + "</li>");
+    $("ul").append("<li>" + newArray[1] + "</li>");
+    $("ul").append("<li>" + newArray[2] + "</li>");
 
     event.preventDefault();
   });
