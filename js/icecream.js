@@ -4,7 +4,8 @@ $(document).ready(function() {
 
     var creamFlavor = $("input#flavor").val();
     var flavors = [creamFlavor]
+    $("#answers").show();
 
-
+    event.preventDefault();
   })
 })
